@@ -1,28 +1,19 @@
-#include <stdio.h>
+ #include <stdio.h>
+
 /**
- * main - Entry point
- *
- * Return: Always 0 (success/correct)
- */
+   * main - print alphabet in upper and lower
+   *
+   * Return: zero
+   */
 int main(void)
-
 {
-char lower_case:
-char upper_case[A[;[;
+	char ch;
+	char CH;
 
-for (upper_case = ''[DA'; upper_case <= ''[Dz'; upper_case+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C+)
-{
-putchar(upper_case);
-}
-
-for (lower_case = 'a'; lower_case <= 'z'; lower_case++)
-{
-putchar(lower_case);
-}
-
-
-putchar('\n');
-
-return (0);
-
-}
+	for (ch = a; ch <= z; ch++)
+		putchar(ch);
+	for (CH = A; CH <= Z; CH++)
+		putchar(CH);
+	putchar(n);
+	return (0);
+} 
