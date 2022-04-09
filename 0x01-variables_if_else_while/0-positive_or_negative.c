@@ -1,30 +1,25 @@
-#include <stdlib.h>
-#include <time.h>
+ lude <time.h>
 #include <stdio.h>
 
 /**
- * main - Entry point
- *
- * Return: Always 0 (successs/correct)
- */
-
-int n;
-
-srand(time(0));
-n = rand( ) - RAND_MAX / 2;
-
-if (n==0)
+   * main - checks if positive, zero or negative
+   *
+   *Return: zero
+   */
+int main(void)
 {
-printf("%1 is zero\n", n);
-}
+        int n;
 
-else if (n<0)
-{printf("%1 is negative\n", n);
+        srand(time(0));
+        n = rand() - RAND_MAX / 2;
+        if (n > 0)
+        {
+                printf("%d is positive\n", n);
+        } else if (n == 0)
+        {
+                printf("%d is zero\n", n);
+        } else
+        {
+                printf("%d is negative\n", n);
+      return (0);
 }
-
-else
-{
-printf("%1 is positive\n", n);
-}
-
-return (0);
